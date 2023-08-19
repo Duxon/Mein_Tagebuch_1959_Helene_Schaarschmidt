@@ -1,3 +1,5 @@
+<img src="Title_Photo.png" alt="Mein Tagebuch" title="Mein Tagebuch">
+
 # Autobiography of Helene Schaarschmidt, born 1903 in Plauen, Germany
 
 This repository serves the purpose of transcribing and translating Helene Martha Schaarschmidt's autobiography. She was born in 1903 in Plauen and, at 55, decided to summarize her life and her experience of living through two World Wars in a blended style of biography and diary. 
