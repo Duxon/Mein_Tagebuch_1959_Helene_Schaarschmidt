@@ -1,4 +1,4 @@
-<img src="Title_Photo.png" alt="Mein Tagebuch" title="Mein Tagebuch">
+<img src="title.png" alt="Mein Tagebuch" title="Mein Tagebuch">
 
 # Autobiography of Helene Schaarschmidt, born 1903 in Plauen, Germany
 
