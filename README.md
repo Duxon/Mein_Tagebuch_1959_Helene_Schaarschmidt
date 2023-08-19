@@ -6,7 +6,7 @@ This repository serves the purpose of transcribing and translating Helene Martha
 
 ## Background
 
-I received a photocopied version of "Mein Tagebuch" from my grandmother, Helene's daughter, and currently 88 years old. I scanned the full book of 76 pages and slowly work on transcribing it first in German, and then translating it into English. Given the context of her life in war-ridden Germany in the first half of the 20th century, her biography has some historical value for anyone interested in reading a first-hand report on living as a common German citizen during that period.
+I have received a photocopied version of "Mein Tagebuch" from my grandmother, Helene's daughter, who is currently 88 years old. I scanned the full book of 76 pages and slowly work on transcribing it first in German, and then translating it into English. Given the context of her life in war-ridden Germany in the first half of the 20th century, her biography has some historical value for anyone interested in reading a first-hand report on living as a common German citizen during that period.
 This book is published under an open license (CC0 1.0).
 
 ## Progress
