@@ -13,5 +13,6 @@ This book is published under an open license (CC0 1.0).
 
 There are two main ways to contribute:
 
-1. If you can read old German handwriting, you can download the scanned PDF file and transcribe the text into the LaTeX file. This is done on a per-page basis, as indicated in the .tex document.
+1. If you can read old German handwriting, you can download the <a href="Mein%20Tagebuch__Helene%20Martha%20Schaarschmidt.pdf">scanned PDF file</a>
+ and transcribe the text into the LaTeX file. This is done on a per-page basis, as indicated in the .tex document.
 2. The currently transcribed text can be translated into an English TeX file.
