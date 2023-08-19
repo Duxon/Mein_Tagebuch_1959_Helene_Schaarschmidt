@@ -11,7 +11,7 @@ This book is published under an open license (CC0 1.0).
 
 ## Progress
 ### 🇩🇪 German Version
-- Transcription: [Deutsch.tex](Deutsch.tex): __0% complete__
+- Transcription: [Deutsch.tex](Deutsch.tex): __2% complete__
 
 ### 🇬🇧🇺🇸 English Version
 - Translation: [English.tex](English.tex): __0% complete__
