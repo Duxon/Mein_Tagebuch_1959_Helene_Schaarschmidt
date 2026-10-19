@@ -1,19 +1,64 @@
-\documentclass[a5paper]{book}
+\documentclass[a5paper,11pt,openany]{book}
 \usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage[a5paper]{geometry}
-
-\title{Mein Tagebuch -- My Diary}
-\author{Helene Martha Schaarschmidt}
-\date{19 January 1959}
-% Translation of Deutsch.tex (the authoritative German reading edition), see docs/adr/0002-english-translation.md.
+\usepackage[T1]{fontenc}
+\usepackage[british]{babel}
+\usepackage[a5paper,inner=20mm,outer=27mm,top=20mm,bottom=24mm,marginparwidth=15mm,marginparsep=4mm]{geometry}
+\usepackage[lining]{ebgaramond}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage[hidelinks,pdftitle={My Diary},pdfauthor={Helene Martha Schaarschmidt}]{hyperref}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.25em}
+\pagestyle{plain}
+% Seitenzahl der Handschrift am Rand / page number of the manuscript in the margin
+\newcommand{\seite}[1]{\leavevmode\marginpar{\footnotesize\itshape\raggedright #1}\ignorespaces}
+% Jahresangabe als Zwischenzeile / year line as a small heading
+\newcommand{\jahr}[1]{\par\medskip\noindent{\scshape #1}\par\nopagebreak}
+% Translation of Deutsch.tex (the authoritative German reading edition), see docs/adr/0002-english-translation.md
 
 \begin{document}
-\maketitle
+\frontmatter
+\begin{titlepage}
+\centering
+\vspace*{28mm}
+\includegraphics[width=0.9\textwidth]{title.png}\par
+\vspace{6mm}
+{\large\itshape My Diary}\par
+\vspace{14mm}
+{\Large Helene Martha Schaarschmidt}\par
+\vspace{2mm}
+{\large born 1903 in Plauen}\par
+\vspace{12mm}
+{\large Writings 1903--1959}\par
+\vfill
+{\small English translation of the German reading edition}\par
+\end{titlepage}
 
-\newpage
-\setcounter{page}{1}
+\section*{About this edition}
+Helene Martha Schaarschmidt, née Penzel, was born in 1903 in Plauen, Saxony.
+Her book opens with a short look back at her childhood and youth and from about 1928 becomes a diary,
+which she kept until January 1959.
+
+\begin{itemize}
+\item This is a translation of the German reading edition, which remains the authoritative text.
+It keeps her plain, everyday way of writing.
+\item Words in square brackets [\,] are missing in the handwriting and have been supplied.
+\item (?) follows a reading that has remained uncertain.
+\item The numbers in the margin give the page of the manuscript; the scan of the original is part of this edition.
+\item Footnotes explain German terms, places where she got a date or a fact wrong, and places where the original wording differs.
+\item She wrote for herself. What she records about the politics of her time reflects what she heard and read then,
+often in the language of Nazi propaganda. It is her view as a contemporary, not the view of this edition.
+\item The transcription and translation were made with the help of AI and checked page by page against the scan.
+Individual errors are still possible.
+\end{itemize}
+
+\vfill
+{\small\noindent Scan of the handwriting, the German edition and the latest version:\\
+\href{https://github.com/Duxon/Mein_Tagebuch_1959_Helene_Schaarschmidt}{github.com/Duxon/\allowbreak Mein\_Tagebuch\_1959\_Helene\_Schaarschmidt}\par}
+
+\mainmatter
 %%% Page 1 %%%
+\seite{1}
 I, Helene Martha Penzel, was born the daughter of the plumber August Penzel on 14 November 1903 in Plauen.
 At that time my parents lived in Friedrichstraße.
 But I then spent my first years in Moritzstraße.
@@ -24,26 +69,23 @@ Four years later the terrible World War broke out.
 1 August 1914 was mobilisation day.
 On 3 August my dear father already had to leave.
 
-\newpage
 %%% Page 2 %%%
+\seite{2}
 Then terrible times came.
 My father was in Russia the whole time.
 In the year 1918 I was then confirmed.
 My father could not come home.
 I then trained as a saleswoman at the firm S. Winter.
-Later I worked at Fr. Egerland as a trimmer.
+Later I worked at Fr. Egerland as a trimmer.\footnote{In the original: ``als Garnierung tätig''. A trimmer (\emph{Garniererin}) decorated hats and dresses.}
 In the year 1920 I then went to dancing lessons at J. L. Huss, where I spent lovely hours, with Mr A. Fröhlich, Plauen.
 On 14 February 1920 there was the welcome evening.\\
-7 March: dance at the Wettinschlösschen.\\
-18 March: thé dansant at the Innungshaus.\\
+7 March: dance\footnote{\emph{Kränzel} or \emph{Kränzchen}: a small dance held by the dancing school.} at the Wettinschlösschen.\\
+18 March: thé dansant\footnote{In the original ``Tetangsong'', her phonetic spelling of the French \emph{thé dansant}, a tea dance.} at the Innungshaus.\\
 21 March: dance in Kauschwitz.
-% Manuscript: ``als Garnierung tätig'' (worked as trimming); what is meant is the work of a Garniererin (a milliner who trims hats and dresses).
-% Manuscript: ``Tetangsong'', her phonetic spelling of ``Thé dansant'' (tea dance).
 % Ditto marks under 18 and 21 (= March) and under ``Kränzel im'' resolved; before the place name Kauschwitz as ``Kränzel in''.
-% Translator's note: ``dance'' renders ``Kränzel'' (also ``Kränzchen''), a small dance held by the dancing school.
 
-\newpage
 %%% Page 3 %%%
+\seite{3}
 18 April: dance at the Georgenhof.\\
 Dancing lessons twice every week.
 In June the end-of-course ball with Mr Walter Penzel at the Innungshaus.
@@ -58,9 +100,9 @@ Later a dance at the Schützenhaus.
 % ``mit Herrn Walter Penzel'' (with Mr Walter Penzel) after ``Revancheball'' is written in the manuscript only as ditto marks (under ``mit Herrn'' and ``Walter Penzel'').
 % In ``2. Katerbummel im Georgenhof'' and ``Abschiedskränzchen im Georgenhof'' ditto marks have been resolved.
 
-\newpage
 %%% Page 4 %%%
-1921.
+\jahr{1921.}
+\seite{4}
 15 January: dance at the Innungshaus.\\
 7 February: masked ball at the Echo.\\
 26 February: dance in Reißig.\\
@@ -72,25 +114,22 @@ On 18 April 1921 started at Gebr. Lange as a pattern girl.
 I then kept company with Mr Zöphel, Raun.
 Then went through a throat operation in hospital.
 In the spring of 1923
-
-\newpage
 %%% Page 5 %%%
+\seite{5}
 I was at the Leipzig trade fair with cousin Alfred.
 Then got to know Miss Else Lange as a friend.
 In September there was a great earthquake in Japan, the biggest in the world.
 Then a terribly bad time.
 Dollar rate.
-A loaf of bread 5 million, 1 pound of flour 4 million, 1 pound of fat 18 million.
+A loaf of bread 5 million, 1 pound\footnote{A German pound (\emph{Pfund}) is 500 g.} of flour 4 million, 1 pound of fat 18 million.
 On 30 September 1923 left Gebr. Lange.
 Was in Dresden with cousin Alfred.
 Was then in the office at Fritz Fischer for 1 year, was a lovely time.
 Then back to Gebr. Lange until 1925.
 Then I was at
 % Manuscript: ``Gebr. Lange-'' (dash instead of full stop)
-% Translator's note: a German pound (``Pfund'') = 500 g.
-
-\newpage
 %%% Page 6 %%%
+\seite{6}
 August Scholze, Weststraße, but not for long.
 At that time kept company with Mr Walter Schumann, was at a lovely wedding in Chemnitz.
 Was often in Chemnitz-Gablenz.
@@ -100,9 +139,9 @@ In October, on 4 October 1926, started at the firm Hermann Tietz, Postplatz, at 
 1928 a great deal to do in the shop.
 Still together with Miss Else Lange as a friend.
 
-\newpage
 %%% Page 7 %%%
-1928.
+\jahr{1928.}
+\seite{7}
 Last Christmas cousin Otto was here with his fiancée.
 Cousin Alfred has also been married for a long time now.
 On 1 May watched the parade, in the evening at the Schillergarten!
@@ -111,9 +150,9 @@ On 6 May: Waldgrün, Jößnitz, in the evening the Gewerkschaftshaus, met Martin
 20 May in Reusa, in the evening the Schillergarten.
 Whitsun just round the corner, but no nice weather.
 
-\newpage
 %%% Page 8 %%%
-Whitsun 1928.
+\jahr{Whitsun 1928.}
+\seite{8}
 Whit Sunday with Else in Rehau, the weather was glorious.
 Whit Monday came home in the evening, 9 o'clock at the Schillergarten.
 In summer always went for lovely walks on Sundays.
@@ -122,32 +161,28 @@ It was glorious there, together with Mrs Döbler.
 Sunday, 12 August, in Berneck, glorious countryside there.
 14 August Bayreuth, 15 August Wunsiedel,
 % ``2. Feiertag'' (Whit Monday): ditto marks under ``1. Feiertag'' resolved
-
-\newpage
 %%% Page 9 %%%
+\seite{9}
 16 August Lanzendorf, looked round the church, saw the monastery, by the mountain lake, saw a real monk.
 In Bayreuth looked round the palace, the Eremitage, the fountain displays, saw Jean Paul's room.
 Wagner's grave and home, looked round the Festspielhaus at 4 o'clock in the afternoon.
 Lovely train ride in the evening, through lovely little villages, Ramsenthal, Marktschorgast, Trebgast, Gössenreuth, Himmelkron.
 Last evening, it was cosy, with tea and a bit of dancing.
 
-\newpage
 %%% Page 10 %%%
+\seite{10}
 On 14 August we were all together at the inn, there were zither players there,
   they sang nicely, we then danced to it, [it] was so truly Bavarian.
 At 12 o'clock we all went home through the little village under the starry sky.
-At 1 o'clock we were given a serenade by the players, zither and singing, ``Geh, mach dei Fensterl auf''.
-``Guten Abend, gute Nacht'', sung very nicely.
+At 1 o'clock we were given a serenade by the players, zither and singing, ``Geh, mach dei Fensterl auf''.\footnote{A Bavarian folk song: ``Come, open your little window''.}
+``Guten Abend, gute Nacht''\footnote{Brahms's Lullaby.}, sung very nicely.
 It was really romantic.
-It was mainly meant for my dark hair, Schwarzköpfle, they kept calling.
+It was mainly meant for my dark hair, Schwarzköpfle\footnote{Dialect for ``little black-head''.}, they kept calling.
 It was lovely all the same, only too short.
 On 17 August arrived in Plauen at 7.30 in the evening.
-% Translator's note: ``Geh, mach dei Fensterl auf'' is a Bavarian folk song.
-% Translator's note: ``Guten Abend, gute Nacht'' is Brahms's Lullaby.
-% Translator's note: ``Schwarzköpfle'' is dialect for ``little black-head''.
 
-\newpage
 %%% Page 11 %%%
+\seite{11}
 On 1 November 1928 there was a silver wedding at our house.
 Was then at Tietz for another year, left on 20 June 1929, was then on holiday in Raun,
   was with uncle and aunt in Eger, Franzensbad, at the Marienburg in Eger, was very nice.
@@ -155,9 +190,9 @@ On 1 July 1929 I then started at the Epa, but it is not as nice as at Tietz.
 On 5 November I had my hair cut in a bob, I like the way I look with it.
 % The last digit of the year 1928 is written over in the manuscript
 
-\newpage
 %%% Page 12 %%%
-The year 1930.
+\jahr{The year 1930.}
+\seite{12}
 Otherwise nothing special happened.
 On 15 March a wedding at cousin Erwin's in Raun.
 At the end of August, on 23 August 1930, a silver wedding at Uncle Anton's.
@@ -165,9 +200,9 @@ On 16 September 1930 a boy arrived at Erwin Penzel's.
 On 1 October Uncle Anton was transferred to Zwotental.
 I visited him on 12 October, but he does not like it up there.
 
-\newpage
 %%% Page 13 %%%
-The year 1931.
+\jahr{The year 1931.}
+\seite{13}
 Still working at the Epa.
 A lot of work.
 My wages are 97.50 net, then with all the deductions off about 86.50.
@@ -178,29 +213,26 @@ It was right in the summer, when it was so hot.
 At Easter 1931 I sat at Trömel's with Gertrud Lommatsch and a few other girls, Else wanted to come, but did not come.
 I had my blue dress on with the flowers.
 
-\newpage
 %%% Page 14 %%%
+\seite{14}
 I was then invited by a gentleman to stop in somewhere else with him, we then sat in the Ratskeller,
   then I was to go along to the wine restaurant zur Traube as well, but I did not go.
 Then met the gentleman quite often.
 I spent Christmas 1931 with him,
   I received a lovely crystal vase with roses and a lovely box of gingerbread and chocolate from him.
 On the afternoon of Christmas Day we went for a lovely walk to Großfriesen, where we then
-
-\newpage
 %%% Page 15 %%%
+\seite{15}
 had a very fine supper, it was very nice.
 Well, and so I got to know my Walter Schaarschmidt, Neuensalz, better and better.
 On New Year's Day 1932 we sat in the [\ldots]schänke (?) together with Else Heinz.
-There I then saw Miss Lüdecke (?), Plauen, Mr Lorenz, Zobes,
+There I then saw Miss Lüdecke (?), Plauen, Mr Lorenz, Zobes\footnote{In the original ``Herrn Lorenz Zobes''. Zobes is probably the village near Neuensalz, not a surname.},
   Miss Müller, Plauen, and Mr Müller, Neuensalz, for the first time.
 Later, in the summer of 1932, we often went out together too.
 It was sometimes very nice!
 Mostly walks in the afternoon, and in the evening we were often
-% Manuscript: ``Herrn Lorenz Zobes''; ``Zobes'' is probably the village near Neuensalz (today part of Neuensalz), not a surname, like ``Plauen'' and ``Neuensalz'' with the other names.
-
-\newpage
 %%% Page 16 %%%
+\seite{16}
 at the Restaurant Gotha, Trockentalstraße.
 We were often at the Jägerhalle too.
 On 31 July 1932 I had to leave the Epa, because I had been there 3 years and was due to get a higher salary.
@@ -208,9 +240,8 @@ I was then at home for just 1 month, then I was called back, on 1 September I st
 On 10 September I was at a lovely wedding with my dear Walter, at his sister's.
 It was too lovely.
 I was picked up, the 2 of us went to Neuensalz on our own, as
-
-\newpage
 %%% Page 17 %%%
+\seite{17}
 I had the bridal veil.
 Then off we went to the church.
 At 3 o'clock the wedding ceremony in the Catholic church.
@@ -222,9 +253,8 @@ Then there was fine food straight away.
 Schnitzel with potatoes, asparagus soup before that, vegetables, red cabbage, celery salad, plums done up first-rate.
 It tasted good to everyone.
 At 10 o'clock there was then
-
-\newpage
 %%% Page 18 %%%
+\seite{18}
 supper, fine cold platters, it tasted good even without bread.
 There was wine too, of course.
 Well, and the evening was over so quickly.
@@ -234,9 +264,8 @@ Then it rained hard.
 Got home late, towards morning.
 Then Christmas time drew near.
 I only spent one day of the Kirmes, the village fair, in Neuensalz, on the Monday evening
-
-\newpage
 %%% Page 19 %%%
+\seite{19}
 I did not get time off.
 Now dear Christmas drew near.
 On Christmas Eve I received a parcel from my Walter.
@@ -246,10 +275,10 @@ Of course I was overjoyed.
 On Christmas Day we were at the Lutherkirche together, in the afternoon we were at the theatre.
 They were playing Geisha, an operetta.
 We spent New Year's Eve 1932/33
-
-\newpage
 %%% Page 20 %%%
+\seite{20}
 the six of us at the Gotha, it was very cosy.
+
 And so the year 1933 began.
 It has not brought us anything good yet.
 My father has already been out of work for 1 year.
@@ -259,31 +288,28 @@ On 1 April the fight against the department stores began, we were boycotted,
 After that nobody came to us any more, then it was the fight against the Jews.
 At our place too all the Jews then had to leave the firm.
 Now things are going better again, since
-
-\newpage
 %%% Page 21 %%%
-our firm has been brought into line.
+\seite{21}
+our firm has been brought into line.\footnote{\emph{Gleichgeschaltet}: the Nazi term for bringing organisations under party control.}
 In May my brother had to go to the Labour Service, Stahlhelm unit, barracks camp.
 30 pfennigs pay a day, board and clothing free.
 Shortly before Whitsun I bought myself a bicycle, 65 marks, I had to learn first.
 At Whitsun we, Walter and I, went to the Talsperre Bergen on our bikes, it was very hot, but lovely.
 On Whit Monday in the evening at Trömel's, at the same table as Liesel Eberhardt.
 A few Sundays later to Fröbersgrün once with the bike.
-% Translator's note: ``brought into line'' renders the Nazi term ``gleichgeschaltet''.
 
-\newpage
 %%% Page 22 %%%
+\seite{22}
 Sunday a week ago to Kürbitz, also with the bike.
 Stopped [at the] Gasthof Grünes Tal, had supper there.
 Today, Sunday, 20 August 1933, I am sitting here at home alone,
   Walter did not come today, I don't know why, perhaps because the weather was too bad.
-Sunday, 26 August, the weather was lovely, so we went on a tour, Reiboldsruh, Mehltheuer, Syrau, Plauen,
+Sunday, 26 August\footnote{As in the original; 26 August 1933 was a Saturday.}, the weather was lovely, so we went on a tour, Reiboldsruh, Mehltheuer, Syrau, Plauen,
   in the evening we had supper at the Restaurant Grüne Tanne, schnitzel with potatoes 60 pfennigs, it was a lovely evening.
-% ``26.8.'' is what the manuscript says (26 August 1933 was a Saturday).
 
-\newpage
 %%% Page 23 %%%
-1933.
+\jahr{1933.}
+\seite{23}
 On the evening of 2 September we got engaged,
   my dear Walter came from work, then we went home and had supper,
   we were on our own with my parents, the evening passed off very quietly.
@@ -292,9 +318,8 @@ Sunday, 3 September, at 6.47 in the morning the two of us went to Zwickau, we we
 After that Walter took me to the Café Buschbeck, then to the Mittelstraße to the Hunger family.
 Then we had lunch at the Restaurant Zur Glocke, it tasted very good.
 Then at 2 o'clock
-
-\newpage
 %%% Page 24 %%%
+\seite{24}
 we went out to Marienthal to the Walter Hendel family, it was very cosy there.
 In the meantime it got to 6 o'clock, then Walter showed me the Schwanenschloss and the Schwanenteich, and so we came back into the town centre.
 There we stopped at a place, I think it was called Löwenbräu.
@@ -303,8 +328,8 @@ Cold cuts 80 pfennigs, by now it was already nearly 8 o'clock and the train was 
 But Walter almost did not want to come with me to Plauen, old memories held him there.
 Then we stopped once more at the Bayrischer Hof, a small cosy café.
 
-\newpage
 %%% Page 25 %%%
+\seite{25}
 Our train went at 9.06, we were in Plauen so quickly, we hardly noticed it.
 And so the lovely Sunday was over,
   it all seemed like a dream to me.
@@ -314,8 +339,8 @@ And when will my wedding day be?
 Sunday, 10 September, we were in Großfriesen.
 On Saturday, 23 September 1933, cousin Alfred got married.
 
-\newpage
 %%% Page 26 %%%
+\seite{26}
 Sunday, 1 October, was harvest festival throughout the Reich, I was in Neuensalz,
   then we walked to Hochschänke Mechelgrün, Zschockau, the weather was glorious,
   it was really warm like in summer, I was not home until 12.30 at night.
@@ -325,9 +350,9 @@ On the Sunday in Altensalz, on the Monday to the dance in Neuensalz.
 Now Christmas came round.
 Sunday, Christmas Eve, worked until 5 o'clock, then walked to Neuensalz, spent Christmas Eve and Christmas Day out there.
 
-\newpage
 %%% Page 27 %%%
-1934.
+\jahr{1934.}
+\seite{27}
 I was given very good presents.
 On Boxing Day we then walked back into town, in the evening we were at Trömel's and then J. Heim (?).
 We spent New Year's Eve 1933 in Schumannstraße,
@@ -340,8 +365,8 @@ It is over again now, on 8 February,
 I looked yellow all over my body, especially the eyes.
 Dr Kirchner is treating me.
 
-\newpage
 %%% Page 28 %%%
+\seite{28}
 On 17 February I started again.
 Then I had a lot of trouble at the shop, there are no real colleagues any more, it is all just envy among each other.
 Now we had decided to get married soon,
@@ -349,8 +374,8 @@ Now we had decided to get married soon,
 So we fixed our wedding day for 17 March 1934.
 Now there were all sorts of things to see to, and yet various things turned out differently from what had been arranged.
 
-\newpage
 %%% Page 29 %%%
+\seite{29}
 A week before, on 10 March to be exact, my cousin Alfred Barth from Raunergrund was beaten to death by his own comrades in Raun,
   on Sunday, 11 March, at 10.30 in the morning he passed away in Bad Elster.
 On Thursday, 15 March, he was buried in Sohl near Bad Elster, my brother Kurt was there, a great many people were there.
@@ -358,9 +383,9 @@ Cousin Alfred had only got married in 1933 in September,
   there is a little boy too, it is a shame about my cousin, for he was a good quiet person.
 But everyone's fate is laid down for them.
 
-\newpage
 %%% Page 30 %%%
-Now comes the Friday, our Polterabend, and Walter could not come,
+\seite{30}
+Now comes the Friday, our Polterabend\footnote{The party on the eve of a wedding.}, and Walter could not come,
   he had already been a bit ill since Monday.
 I was at the shop until 7 o'clock in the evening and then home,
   I had already been given very good presents.
@@ -369,21 +394,18 @@ And now the Saturday, our wedding day, up early out of bed,
 At 10.45 my dear Walter came with his old folks and his brother Albert and family,
   we drove off straight away, 11.15 civil ceremony, which did not take long.
 Now you
-% Translator's note: the Polterabend is the party on the eve of a wedding.
-
-\newpage
 %%% Page 31 %%%
+\seite{31}
 don't even know any more how quickly it was all over.
 At 11.45 was our church wedding, I shall not forget it,
   it was very solemn and always on Saturdays around 12 o'clock you think of it.
-Pastor Bergsträsser married us, the organ played ``Jesu, geh voran auf der Lebensbahn''.
+Pastor Bergsträsser married us, the organ played ``Jesu, geh voran auf der Lebensbahn''.\footnote{A hymn, known in English as ``Jesus, Still Lead On''.}
 Then we drove to the photographer, and after that to the housing estate to the Frotschers', where our wedding was celebrated,
   we really enjoyed ourselves, we were given presents and honoured from all sides.
 There were 20 of us and 6 children.
-% Translator's note: ``Jesu, geh voran'' is a hymn.
 
-\newpage
 %%% Page 32 %%%
+\seite{32}
 Everyone was in a good mood and merry.
 Only we were quiet and kept an eye on the others, Walter already had a headache at 12 o'clock at night,
   after 1 o'clock the whole wedding party broke up, the lovely day was over, it was all like a dream.
@@ -391,9 +413,8 @@ The Sunday morning brought us nothing good.
 I went to the doctor with Walter straight away, he found pneumonia,
   we went straight to Neuensalz in a hired car, Sunday afternoon was very bad.
 Dr Kammer from Theuma came every day, for a fortnight
-
-\newpage
 %%% Page 33 %%%
+\seite{33}
 on end, I was always out there.
 Now it is a bit better, today at Easter Walter got up for the first time again,
   in the last week he then got up for good,
@@ -402,8 +423,8 @@ Easter was 1 April, now it is 11 April, thank God Walter is more or less recover
 Now we still need a small flat, so that we can set up a nice home.
 And hopefully we will have more luck in our marriage then, for we have already been through a time of trial.
 
-\newpage
 %%% Page 34 %%%
+\seite{34}
 Our wedding cost about 250 marks not counting the baked goods,
   car 35 marks,
   food 60 marks,
@@ -415,9 +436,8 @@ Now I am just curious what sort of flat we will get.
 1 May 1934.
 We will probably get a flat in Neuensalz.
 Today was very hot and in the afternoon there was a thunderstorm, the whole procession
-
-\newpage
 %%% Page 35 %%%
+\seite{35}
 was rained off, we went home at 9 o'clock.
 On 2 May at 9.04 in the morning Walter left Thoßfell for Leipzig, for a cure.
 I went with him to Thoßfell, I hope he won't stay away so long.
@@ -425,8 +445,8 @@ Today, 15 May, Walter is still in Leipzig, he is better, perhaps I will go there
 At Whitsun, on Whit Sunday, I was in Leipzig, left Plauen at 6.45 in the morning, in Leipzig around 10 o'clock.
 In the morning I was at the Völkerschlachtdenkmal, at 12.30 I went to the hospital to Walter.
 
-\newpage
 %%% Page 36 %%%
+\seite{36}
 I was there until about 6 o'clock.
 The train went at 7.30.
 On Whit Monday I was at the shooting festival, I won such a lovely white poodle there.
@@ -435,17 +455,17 @@ I hope we find something suitable in Plauen.
 On Friday, 8 June 1934, Walter came back from Leipzig.
 On Sunday, 10 June, we went on a bike tour, Möschwitz, Pöhl, Herlasgrün, Goldene Höhe, Thoßfell, Neuensalz.
 
-\newpage
 %%% Page 37 %%%
+\seite{37}
 Sunday, 1 July, we were in Bad Elster, left Neuensalz at 5.30 in the morning, home again at 8 o'clock in the evening.
 On the Saturday before, 30 June, 12 men from the SA leadership were shot
-  for spying with foreign countries and being hostile to Hitler.
+  for spying with foreign countries and being hostile to Hitler.\footnote{As in the original. At least 85 people were killed in the purge of 30 June 1934 (the ``Night of the Long Knives''); the charge of spying was propaganda.}
 On 2 August 1934 Reich President Paul von Hindenburg passed away.
 On 8 August we rented a flat, from 15 August, at Ostenstraße (?) 12, ground floor.
 % ``Reichs-'' (Reich) is written above the line in the manuscript (added later).
 
-\newpage
 %%% Page 38 %%%
+\seite{38}
 On Saturday, 11 August, we moved in.
 Now we have already been here a fortnight, we like it very much.
 On Sunday, 26 August 1934, a Sunday boy arrived at Walter's sister Klara's.
@@ -456,9 +476,8 @@ On 27 September 1935 at 12.15 in the early hours she saw the light of day,
   she was healthy, only a bit dainty, she weighed 6 1/4 pounds at birth.
 Now
 % ``Pfund'' (pound) is written in the manuscript with the old pound sign.
-
-\newpage
 %%% Page 39 %%%
+\seite{39}
 our little Margot Maria is already 14 weeks old and now weighs 10 pounds 110 grams, she lies in her basket like a little doll.
 My brother Kurt has got married too in the meantime, on 22 December he had his church wedding,
   and his son Lothar Wolfgang was christened at the same time, he was born on 3 October.
@@ -469,9 +488,9 @@ Alma Penzel, Gunzen near Adorf im Vogtland.\\
 Anton Görgl, Plauen, Schumannstraße 9.
 % ``1935'' is written above the line in the manuscript (added later)
 
-\newpage
 %%% Page 40 %%%
-The year 1936.
+\jahr{The year 1936.}
+\seite{40}
 Our Margot will soon be 1 year old already, she has come on really nicely,
   she took her first steps on her own, on the third day of Christmas 1936.
 We spent New Year's Eve 1936-37 at Klara's.
@@ -480,9 +499,8 @@ On 18 February the good Lord gave us a son and heir, he weighed 9 pounds, the de
   but 3 days later, on the Saturday, I had a very high temperature, 40.2.
 I was laid up in bed for nearly a fortnight.
 Walter had just started at Gebr. Höppner (?), first he did gardening work, then he went
-
-\newpage
 %%% Page 41 %%%
+\seite{41}
 into the dye works.
 Our Günter is getting bigger and bigger now, in the summer he was already starting to sit up,
   in August 1937 Walter went to Dresden to the Rudolf-Heß-Krankenhaus for a cure, because of his skin trouble.
@@ -491,21 +509,20 @@ For almost 5 weeks I was alone with my 2 children,
   but my mother is not allowed into my flat, sometimes I could use her to give me a hand with a few things, but unfortunately,
   Walter is not on good terms with my mother, but how nice it would be if everyone was on good terms, I
 % Manuscript: ``Hes-Krankenhaus'' (presumably the Rudolf-Heß-Krankenhaus in Dresden is meant)
-
-\newpage
 %%% Page 42 %%%
+\seite{42}
 [have to] bear all that now, though, even if it hurts sometimes.
-My brother's child was in a very bad way, he had a rash, at about 2 years old he lost it.
+My brother's child was in a very bad way, he had a rash, at about 2 years old he lost it.\footnote{The rash is meant.}
 Thank God.
 Shortly before Christmas first Margot had measles and then Günter.
 After Christmas it started with Günter too, with his skin trouble, he is really starting to scratch.
-The year 1938.
+
+\jahr{The year 1938.}
 Since Christmas Walter's brother has been lying ill at home,
   he is always badly swollen, arms and legs,
   he has very great patience and bears his suffering quite calmly, every Sunday
-
-\newpage
 %%% Page 43 %%%
+\seite{43}
 his brothers and sisters visited him, and quite suddenly on 2 March at 12.30 midday he passed away,
   yesterday, Saturday, at 3 o'clock in the afternoon he was buried in God's earth,
   it's a pity about him, he lies in the cemetery in Altensalz.
@@ -516,54 +533,48 @@ Rest gently, you noble heart,\\
 To you the peace, to us the pain.
 % Note: the line runs to the edge of the page, the end of the word is cut off there
 
-\newpage
 %%% Page 44 %%%
-Autumn 1938.
+\jahr{Autumn 1938.}
+\seite{44}
 The summer is over again now, it was always cold and wet, but now at the beginning of September the weather is lovely.
 In our family everyone is still healthy so far, only our Günter suffers a great deal with the skin disease,
   he has already gone many nights without sleeping, we have already been to 5 doctors,
   now at the end of September we are bathing him with boiled elderberries, we'll see if that helps at all.
 At my parents' everyone is still healthy too, thank God, my brother has been living in the house with my parents since July 1938.
 Today,
-
-\newpage
 %%% Page 45 %%%
-on 28 September 1938, Adolf Hitler is speaking to the whole nation, because for a fortnight the whole of Germany has been in turmoil,
+\seite{45}
+on 28 September 1938\footnote{As in the original; Hitler's speech at the Berlin Sportpalast was on 26 September 1938.}, Adolf Hitler is speaking to the whole nation, because for a fortnight the whole of Germany has been in turmoil,
   in Czechoslovakia no German is safe any more.
-Because of Adolf Hitler's party they are all being beaten up over there,
+Because of Adolf Hitler's party they are all being beaten up over there\footnote{Literally ``through Adolf Hitler's party''; she presumably means that the Germans there are beaten up for siding with Hitler's party.},
   many thousands of refugees have already come to Germany,
   in Graslitz, Eger, Elbogen, Falkenau, Reichenberg and various places there has been shooting,
   many Germans have already had to lose their lives,
   many families over there have [left] house and home and walked for hours through the woods to get across the
-% ``28 September'' is as written in the manuscript (Hitler's Sportpalast speech was on 26 September 1938).
-
-\newpage
 %%% Page 46 %%%
+\seite{46}
 border, because the Czechs are really nasty and ill-treat many Germans,
   hopefully there will be a good way out of this, we don't want a war.
 We have also had the blackout often now,
   then all the windows have to be covered, because of the danger of air raids.
+
 Now comes the year 1939.
 But unfortunately it brings us war.
 In the spring many already have to do their training period.
-On 18 July 1939 my brother had to report to the pioneers in Zeithain.
+On 18 July 1939 my brother had to report to the pioneers\footnote{Combat engineers.} in Zeithain.
 In this month
-% Translator's note: ``Pioniere'', pioneers, are combat engineers.
-
-\newpage
 %%% Page 47 %%%
+\seite{47}
 Walter also went to Bad Ems because of his skin complaint,
   but it did not help him at all.
 Then in September the war with Poland began, on 3 September 1939 many Germans were murdered,
   it cost a lot of blood, it was a hard fight.
 But it only lasted about 6 weeks, then the war with Poland was over, but unfortunately many a man did not come back,
-  about 10 thousand dead, 3 thousand missing and 18 thousand wounded.
+  about 10 thousand dead, 3 thousand missing and 18 thousand wounded.\footnote{As in the original; the official figures were about 10,500 dead, 3,400 missing and 30,300 wounded.}
 Almost everyone has been
 % ``1939'' is written above the line in the manuscript (added later)
-% Figures as in the manuscript (officially reported: about 10,500 dead, 3,400 missing, 30,300 wounded).
-
-\newpage
 %%% Page 48 %%%
+\seite{48}
 called up, or many workers are working on the Westwall.
 At Christmas 1939 my brother was at home on leave.
 He was in Radeburg near Dresden for a long time.
@@ -573,47 +584,43 @@ On the third day of Christmas the great cold began,
   the schools closed because there was no coal.
 There have also been ration cards since September 1939, clothing cards too.
 
-\newpage
 %%% Page 49 %%%
+\seite{49}
 Everything is very short, soap is on coupons too.
 Now in the spring the fighting with Norway began as well,
-  Sweden did not put up a fight, but Norway did not want to let the Germans in,
+  Sweden\footnote{As in the original; she presumably means Denmark, which was occupied on 9 April 1940 almost without resistance.} did not put up a fight, but Norway did not want to let the Germans in,
   there were many dead and wounded there too.
 In May 1940 Walter went away again too, to Bad Wörishofen,
   but he was only there a few days and had to break off the cure, because the fighting with Holland,
   Belgium and France began, that was 10 May 1940, on the Friday before Whitsun.
-% ``Sweden'' (``Schweden'') is as written in the manuscript (Denmark is probably meant).
 
-\newpage
 %%% Page 50 %%%
+\seite{50}
 My brother took part in this fighting too, he was in Holland, Belgium, France, right down to the Bay of Biscay.
 But the war with France did not last long,
-  on 14 June 1940 our soldiers marched into Paris, on 24 June 1940 there was an armistice.
+  on 14 June 1940 our soldiers marched into Paris, on 24 June 1940 there was an armistice.\footnote{As in the original; the armistice with France was signed on 22 June and took effect on 25 June 1940.}
 My brother came on leave in August, not at home since Christmas.
 Unfortunately it cost many of our brave soldiers.
 So the year 1940 passed in war as well.
-% ``24 June'' is as written in the manuscript (signed on 22 June, in force on 25 June 1940).
 
-\newpage
 %%% Page 51 %%%
+\seite{51}
 Unfortunately the new year 1941 did not bring us the longed-for peace either,
   on the contrary, in the summer of 1941, on 22 June, the terrible war with Russia began,
   it was on a Sunday, many brave soldiers have already had to give their lives,
   and many thousands of soldiers are wounded and sick.
 My brother was in it again too, as a pioneer, at the battle of Minsk,
   Gomel, Kiev, he went as far as Kharkov, from there he
-
-\newpage
 %%% Page 52 %%%
+\seite{52}
 came back because of pneumonia,
   at the moment he is in a military hospital in Vöcklabruck near Salzburg.
 The terrible fighting with Russia is still raging now, because the Russians are tough and fight very bitterly.
 And now Christmas is over and the war goes on and on.
 Many women have to work, on the trams, at the post office, on the railways and in the factories.
 For the soldiers records, pictures, warm clothes and
-
-\newpage
 %%% Page 53 %%%
+\seite{53}
 various other things are being collected.
 Toboggans and skis also have to be handed in for the military.
 We could not bake any Stollen for Christmas either,
@@ -621,9 +628,8 @@ We could not bake any Stollen for Christmas either,
   Lothar Wolfgang Penzel, was run over by a coal lorry on 23 December at 3 o'clock in the afternoon
   and passed away peacefully on Christmas Day at 6 o'clock in the evening.
 The poor little chap had a head wound and internal injuries, his bowel was torn, he was
-
-\newpage
 %%% Page 54 %%%
+\seite{54}
 operated on at once, but unfortunately medical help could no longer save the child.
 But he was fully conscious until 5.30, his mum was with him to the end.
 On 30 December 1941 at 11 o'clock in the morning he was buried in God's Acre I.
@@ -631,9 +637,8 @@ He had lovely wreaths and hearts.
 But he could have lived a long time yet, the good little chap.
 My brother was here for the funeral, he had to be back in the military hospital on New Year's Eve.
 My parents will not forget Lothar in a hurry,
-
-\newpage
 %%% Page 55 %%%
+\seite{55}
 because after all Mother brought him up for 3 1/2 years.
 He was a lively little chap.
 Rest in peace, you good little child's heart.
@@ -643,9 +648,8 @@ Walter too has been back at home since September,
 The war with Russia rages on and on, it is costing many German soldiers.
 My brother is still in it.
 There are also a great many air-raid alarms in the Rhineland
-
-\newpage
 %%% Page 56 %%%
+\seite{56}
 and many lovely German cities are being destroyed.
 Cologne, Koblenz, Düsseldorf, Essen, Mainz, Aachen, Duisburg, Münster and many more cities have been destroyed by aircraft
   and many women and children have lost their lives as well.
@@ -653,21 +657,19 @@ So the war rages on in the country and out at the front.
 Our Margot started school in August 1942, she goes to the Franzschule (?).
 And Walter cannot work at all any more, many a night he cannot sleep,
   his heart can't cope any more and the eczema sometimes torments him badly, he gets
-
-\newpage
 %%% Page 57 %%%
+\seite{57}
 an invalidity pension of 50 marks a month with our 2 children, we have to budget very carefully.
 Since January '42 I have been delivering newspapers for the firm Hitzig,
   Blücherstraße, Walter helps me with it and delivers some of the streets for me.
-And besides that he collects for the Volksfürsorge, he has earned quite a bit of money with that.
+And besides that he collects for the Volksfürsorge\footnote{An insurance company.}, he has earned quite a bit of money with that.
 At Christmas 1942 my brother was here on leave from Russia, on Christmas Day he had to go away again.
 After Christmas Walter was a bit ill again, in winter he is always ill.
 In the meantime he had also come down again with
-% Translator's note: the Volksfürsorge was an insurance company.
-
-\newpage
 %%% Page 58 %%%
+\seite{58}
 pneumonia.
+
 Now comes the year 1943.
 The terrible war rages on and on.
 Many from our Burgstraße have already fallen.
@@ -676,9 +678,8 @@ My father is already 65 and still has to go to Vomag, he has been employed there
 We still have our garden on the housing estate,
   it is good that we get some berries there, because there is very little on the ration cards.
 So the spring goes by
-
-\newpage
 %%% Page 59 %%%
+\seite{59}
 and in the summer I was in Raunergrund at Aunt Marie's with my 2 children,
   Walter delivered my newspapers for me, he was also feeling reasonably well then.
 He also visited us one Sunday, and when he went home again in the evening, he looked back at us so longingly,
@@ -687,9 +688,8 @@ That was in July.
 And when we came home again, he even told us off,
   saying it had been nicer when
 % Manuscript: ``es war Ihm da aus so einigermaßen gut''; ``auch'' (also) is meant.
-
-\newpage
 %%% Page 60 %%%
+\seite{60}
 he was alone.
 We were in the garden almost every Sunday, in the middle of August Walter came out with us again too,
   he [picked] off the last gooseberries for himself,
@@ -699,9 +699,8 @@ If we had all known that a fortnight later my dear Walter would pass away, on th
   nobody would have thought it.
 But it really is so, man proposes and God disposes.
 On 22 August, the Sunday, I did the washing, Walter was already lying in bed
-
-\newpage
 %%% Page 61 %%%
+\seite{61}
 all day, on the Saturday he had still taken a steam bath,
   he was still fine then and on the Sunday it started,
   on the Monday I fetched a sickness certificate, and in the afternoon I went to the doctor with him.
@@ -709,53 +708,46 @@ Dr Brückner, Rädelstraße, he was already in a bad way by then,
   I had to dress and undress him, he was in with the doctor a long time,
   his liver was terribly swollen and his whole body full of water,
   he got an injection for the water, but not
-
-\newpage
 %%% Page 62 %%%
+\seite{62}
 much water drained away, then he was laid up in bed, but he still ate a bit,
-  on Thursday evening he still ate 2 green dumplings with hare, and stewed fruit,
+  on Thursday evening he still ate 2 green dumplings\footnote{\emph{Grüne Klöße}: Vogtland dumplings made from raw grated potato.} with hare, and stewed fruit,
   but then in the night [it] was terrible, all at once he said to me, now it's coming to an end, I held on to him,
   he was in terrible pain.
 On Friday morning I went to the doctor, he had nothing good to tell me,
   I was as white as a sheet, I could hardly get home, Walter was to go into hospital,
-% Translator's note: green dumplings (``grüne Klöße'') are Vogtland dumplings made from raw grated potato.
-
-\newpage
 %%% Page 63 %%%
+\seite{63}
 I told his sister Klara straight away, they should fetch his parents,
   and when I came home, he was up, and I wanted to give him some white bread,
   then he said to me, how am I supposed to bite into that, he was already delirious.
 Then he also said to me he was not going into hospital, he would take the responsibility on himself,
   his mother was there by midday, then a few tears came to his eyes,
   but he did not speak to me any more either, the poison from the liver had already
-
-\newpage
 %%% Page 64 %%%
+\seite{64}
 passed into his body, then he lay quietly in bed and his eyes rolled up,
   in the night he got out of bed 3 times and would not get back in,
   he held on to Margot's bed, and there was an alarm as well.
 In the morning I then rang Dr Nymeir (?), he came at midday and said it was a slight stroke,
   we should just wash him and give him an enema,
   then Konrad and Frieda came, we moved him into another bed, he cried
-
-\newpage
 %%% Page 65 %%%
+\seite{65}
 like a child.
 In the evening my father came in too and kept watch with us, he still knew him by his voice,
   he also gave him his last drink of water at about 6 o'clock in the morning.
 At 8 o'clock a nurse came,
   we gave him another enema and put clean clothes on him and laid him back in his bed,
   he screamed terribly again, then he lay quite still and did not open his eyes any more,
-
-\newpage
 %%% Page 66 %%%
+\seite{66}
 then I had to deliver the newspapers, when I came back at midday his mother said he had been lying quite still.
 From 2 o'clock in the afternoon I sat by his bed all alone, he did not answer me any more,
   all my calling was no use, then his father came, so we sat with him, and nobody could talk to him any more,
   his heart was already starting to miss a beat every 5 minutes, then it got worse and worse, you could hardly bear
-
-\newpage
 %%% Page 67 %%%
+\seite{67}
 to watch it any more, it was terrible,
   the water boiled his heart away, his last words were, yes, perhaps about 10 times,
   then one more lovely look upwards and his heart stood still.
@@ -763,9 +755,8 @@ At 11.15 on Sunday evening my dear Walter was dead, I will never forget that hou
   it was as if all the clocks had stopped at once.
 His last words were surely meant for his brother Albert, he was fetched by him into the heavenly kingdom.
 We all have to
-
-\newpage
 %%% Page 68 %%%
+\seite{68}
 go the same way, but he was meant to live many more years at my side, but God willed it otherwise.
 Margot and Günter have no Daddy any more.
 Now there was all sorts to see to,
@@ -775,28 +766,28 @@ He had a nice funeral, on Thursday, 2 September 1943, at 1 o'clock in the aftern
 It is hard to have to give up someone you love, we had been married almost 10 years.
 Rest gently in peace, my dear Walter.
 
-\newpage
 %%% Page 69 %%%
+\seite{69}
 And yet life has to go on, if only for the children's sake.
 Christmas 1943 was very sad for us, because we did miss our dear Daddy.
+
 Now it is already April 1944 and the times are even more serious, we have air-raid alarms almost every day,
   Cologne, Mannheim, Braunschweig, Munich, Leipzig, Friedrichshafen, Augsburg, Berlin have been badly destroyed.
 In the daytime there are a great many alarms, the children come home from school then,
   oh, if only there were soon
-
-\newpage
 %%% Page 70 %%%
+\seite{70}
 an end to this dreadful war, how many more people have to die?
 Written today, 26 April 1944.
+
 Now comes the year 1945.
 Plauen was often attacked by American planes and many houses were destroyed.
 In March '45 we were bombed out in Burgstraße.
 During alarms we were often in the garden in a hole in the ground that my father had fitted out for us,
   and that is where we went through the most dreadful raid on Plauen too.
 The whole of Plauen was
-
-\newpage
 %%% Page 71 %%%
+\seite{71}
 on fire and there were many dead and injured.
 It was terrible.
 Then I went off with my children to Aunt Marie's in Raun.
@@ -806,9 +797,8 @@ In Plauen they had looted our flats in the meantime.
 Then in June we came back to Plauen,
   we took our furniture and the things we still had to my parents' and we lived there then too.
 No water,
-
-\newpage
 %%% Page 72 %%%
+\seite{72}
 no light and nothing to eat, a dreadful time.
 We were all starving, sometimes I felt sorry for my two children.
 In January 1946 my dear good father died suddenly, of bowel cancer.
@@ -818,9 +808,8 @@ He was buried in Neundorf cemetery.
 Bit by bit Plauen was cleared up again and everyone tried to fix up a flat for themselves again.
 In March 1949 our dear mother died too, of pneumonia.
 She was laid beside my father
-
-\newpage
 %%% Page 73 %%%
+\seite{73}
 to her last rest.
 Was 68 years old too.
 Now I stood here alone with my 2 children.
@@ -830,19 +819,17 @@ Margot went to the training workshop for women's clothing and Günter trained as
 After her apprenticeship Margot went to the clothing factory in Rähnisstraße.
 Günter trained for 2 years, then he was sent to Leipzig to the Workers' and Peasants' Faculty, Karl-Marx-Universität.
 He was there for 2 years,
-
-\newpage
 %%% Page 74 %%%
-from there he was sent to the People's Army in Dresden, to officers' school for 3 years.
+\seite{74}
+from there he was sent to the People's Army\footnote{In the original ``zu d. V. A.'' (and on page 75 ``bei d. V. A.''): the National People's Army of the GDR.} in Dresden, to officers' school for 3 years.
 And he has these 3 years behind him and now, at 22, he is an officer,
   a junior lieutenant, at the barracks in Weißenfels as an instructor!
 At the end of September 1957 he got married in Dresden, and on 26 September 1958 a son and heir arrived,
   his name is Steffen.
 His wife still lives in Dresden.
 In the same year, on 30 March 1957, Margot got married, in July 1957 her husband then took her with him to
-
-\newpage
 %%% Page 75 %%%
+\seite{75}
 Werder (Havel), where they also have a small flat.
 He is in the People's Army too, as a lieutenant.
 They also had a girl in June 1958, her name is Ramona.
@@ -850,9 +837,7 @@ So brother and sister both got married in one year and I am still alone in Plaue
 Since I do have to work to earn my money.
 I really have 2 good and decent children, my son-in-law and daughter-in-law are good to me too.
 I have done my duty, now they must make their own way through life.
-19 January 1959
-% The last digit of the year is partly cut off at the right edge of the scan and looks more like a 7 (1957).
-% From the content (births in June and September 1958) and the date on the title page (19 January 1959), 1959 is meant.
-% Manuscript: ``zu d. V. A.'' (p. 74) and ``bei d. V. A.'' (p. 75), meaning the (National) People's Army. The diary ends with this entry.
+\par\medskip\hfill 19 January 1959\footnote{The last digit of the year is cut off at the edge and looks more like a 7. From the content (births in June and September 1958), 1959 is meant.}
+% The diary ends with this entry.
 
 \end{document}

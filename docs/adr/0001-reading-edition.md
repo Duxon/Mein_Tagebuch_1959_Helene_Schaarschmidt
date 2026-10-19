@@ -29,12 +29,18 @@ The scanned manuscript is in the repository. It remains the authoritative source
 7. **Place names** use their official spelling (Thoßfell, Jößnitz, Gomel, Golf von Biskaya). **Personal names** are spelled as she wrote them, unless the spelling is clearly a slip.
 8. **Factual errors stay** as she remembered them. A `%` comment gives the correct fact. Example: "Schweden" where Denmark is meant, or the date of a speech. The diary is a first-hand account, and what she believed is part of it.
 9. **Uncertain readings** are marked `(?)` directly after the word. Alternatives go in a `%` comment.
-10. **Layout:** one `%%% Seite N %%%` block per manuscript page, `\newpage` between pages, one sentence per line, and continuation lines of long sentences indented. A sentence that runs over a page break is split at the break.
-11. **`%` comments** are in German. They cover only what a reader or translator needs: meaning, uncertain readings, factual notes, and the original wording where the edit changes a word in a way that matters (e.g. "als Garnierung tätig" became "als Garniererin tätig"). Routine spelling and punctuation corrections are not commented.
+10. **Layout.**
+    - The source has one `%%% Seite N %%%` block per manuscript page, opened by `\seite{N}`, which prints the manuscript page number in the margin.
+    - The printed text runs on continuously. A new paragraph starts only where a page ends a sentence, at her year lines (set as small headings with `\jahr{…}`), and at sentences that open a new year.
+    - In the source: one sentence per line, continuation lines indented. A sentence that runs over a page break is split at the break.
+11. **Notes** are in German.
+    - What a reader needs becomes a `\footnote`: meaning, factual slips, and the original wording where the edit changes a word in a way that matters (e.g. "als Garnierung tätig" became "als Garniererin tätig").
+    - Notes that only document the transcription (resolved ditto marks, words added above the line) stay `%` comments.
+    - Routine spelling and punctuation corrections are not noted.
 
 ## Consequences
 
 - The German text reads fluently, and the English translation can work from it directly.
-- Her exact spelling and grammar are no longer in the text. Anyone who needs them reads the scan, which is page-aligned with the `%%% Seite N %%%` blocks.
+- Her exact spelling and grammar are no longer in the text. Anyone who needs them reads the scan; the margin numbers give the manuscript page.
 - Editorial additions remain visible through the square brackets. Word-level corrections are not individually traceable, which is a deliberate trade-off in favour of readability.
 - Proofreading now has two separate questions: *is the reading right* (compare with the scan) and *is the edition right* (compare with these rules).
